@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@+id/main">
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/base_url_default"
+            android:id="@+id/base_url"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Service"
+            android:id="@+id/startServiceBtn" android:width="120dp"
+            android:onClick="onClickStart"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop Service"
+            android:id="@+id/stopServiceBtn" android:width="120dp"
+            android:onClick="onClickStop"/>
+    <Button
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:text="Connect"
+            android:id="@+id/connectBtn" android:width="120dp"
+            android:onClick="onClickConnect"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1" android:width="250dp" android:background="#006600"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" android:width="250dp" android:background="#660066"/>
+</LinearLayout>
+
